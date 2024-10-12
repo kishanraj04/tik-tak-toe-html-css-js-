@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header span
+{
+    font-size: 2rem;
+    color: blue;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 7rem;
+    align-items: center;
+    background-color: yellow;
+}
+
+.main
+{
+    height: 21rem;
+    width: 21rem;
+    border: 3px solid black;
+    height: 30%;
+    box-shadow: 1px 4px 20px 10px ;
+}
+
+.main div
+{
+    display: flex;
+}
+
+.main div div 
+{
+    height: 7rem;
+    width: 7rem;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+    
+}
+
+/* colouring of each div */
+.one , .two , .three , .four , .five , .six , .seve , .eight , .nine , .seven
+{
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+}
